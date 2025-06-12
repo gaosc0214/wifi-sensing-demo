@@ -1241,7 +1241,7 @@ def start_new_round():
         pass  # 轮次在开始游戏时已经设置为1
     
     # 随机选择一个CSI样本
-    csi_sample_dir = 'csi_samples'
+    csi_sample_dir = 'data'
     
     # 检查目录是否存在
     if not os.path.exists(csi_sample_dir):
