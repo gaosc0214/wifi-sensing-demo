@@ -10,6 +10,19 @@ import random
 import logging
 import warnings
 
+# 设置日志
+logging.basicConfig(
+    level=logging.INFO,
+    format='%(asctime)s - %(name)s - %(levelname)s - %(message)s'
+)
+logger = logging.getLogger(__name__)
+
+# 记录启动信息
+port = os.environ.get('PORT', '10000')
+logger.info(f"Starting application on port {port}")
+logger.info(f"Streamlit server port: {os.environ.get('STREAMLIT_SERVER_PORT', 'unknown')}")
+logger.info(f"Server address: {os.environ.get('STREAMLIT_SERVER_ADDRESS', 'unknown')}")
+
 # 设置健康检查响应
 def health_check():
     return "OK"
@@ -27,10 +40,6 @@ warnings.filterwarnings('ignore', module='torch._classes')
 
 import matplotlib
 matplotlib.use('Agg')  # 使用非交互式后端避免字体问题
-
-# 设置日志
-logging.basicConfig(level=logging.INFO)
-logger = logging.getLogger(__name__)
 
 # 添加组件路径
 sys.path.append(os.path.join(os.path.dirname(__file__), 'components'))
