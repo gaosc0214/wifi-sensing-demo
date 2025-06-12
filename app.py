@@ -112,9 +112,10 @@ def main():
         st.markdown("""
         👨‍🎓 **课题内容**：基于深度学习的真实复杂环境WiFi CSI多维情景感知研究
         
-        这是我的期末大作业成果展示！本作业研究了如何使用WiFi CSI(Channel State Information)数据进行人体活动识别。
-        我测试了7种深度学习模型(MLP、LSTM、ResNet18、Transformer、ViT、PatchTST、TimesFormer1D)，
-        并在跨设备、跨环境、跨用户等场景下进行了性能评估。还做了个小游戏用于体验CSI感知技术！🎮
+        这是我的期末大作业成果展示！本作业研究了如何使用WiFi CSI(Channel State Information)数据进行人体活动识别(HAR)任务。
+        在单任务学习方面，我测试了7种深度学习模型(MLP、LSTM、ResNet18、Transformer、ViT、PatchTST、TimesFormer1D)，
+        并在跨设备、跨环境、跨用户等场景下进行了全面的性能评估。同时，我还探索了多任务学习方案，基于Transformer、PatchTST和TimesFormer1D三种模型实现了人体活动识别、接近度识别和人体身份识别三个任务的联合学习，
+        显著提升了模型的泛化能力。为了让大家更好地体验CSI感知技术，还开发了一个互动小游戏！🎮
         """)
         research_mode()
     else:
