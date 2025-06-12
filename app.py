@@ -10,6 +10,10 @@ import random
 import logging
 import warnings
 
+# 设置健康检查响应
+def health_check():
+    return "OK"
+
 # 彻底过滤掉所有警告，包括matplotlib字体警告和PyTorch警告
 warnings.filterwarnings('ignore')
 warnings.filterwarnings('ignore', category=UserWarning)
@@ -80,6 +84,11 @@ def create_dummy_csi_data():
 
 def main():
     """主函数"""
+    # 健康检查
+    if os.environ.get('HEALTH_CHECK') == 'true':
+        st.write(health_check())
+        return
+
     # 侧边栏选择模式
     st.sidebar.title("选择模式")
     mode = st.sidebar.radio(
