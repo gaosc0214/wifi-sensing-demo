@@ -1,0 +1,70 @@
+{
+    "app_title": "CSI WiFi感知展示平台",
+    "app_description": "基于深度学习的WiFi CSI人体活动识别系统",
+    "models": {
+        "transformer": {
+            "name": "Transformer",
+            "description": "基于注意力机制的序列模型",
+            "config_file": "config/transformer_HumanActivityRecognition_config.json",
+            "weights_file": "models/best_model.pt"
+        }
+    },
+    "activities": {
+        "0": {
+            "name": "跳跃",
+            "emoji": "🦘",
+            "description": "高动态活动，信号变化剧烈"
+        },
+        "1": {
+            "name": "跑步", 
+            "emoji": "🏃",
+            "description": "持续运动模式，周期性特征明显"
+        },
+        "2": {
+            "name": "静坐呼吸",
+            "emoji": "🧘", 
+            "description": "微动检测，需要高精度分析"
+        },
+        "3": {
+            "name": "走路",
+            "emoji": "🚶",
+            "description": "中等动态，步态特征清晰"
+        },
+        "4": {
+            "name": "挥手",
+            "emoji": "👋",
+            "description": "局部运动，手部动作识别"
+        }
+    },
+    "game_settings": {
+        "max_samples_per_session": 20,
+        "score_weights": {
+            "both_correct": 20,
+            "user_correct_ai_wrong": 30,
+            "user_wrong_ai_correct": 5,
+            "both_wrong": 10
+        },
+        "achievement_levels": [
+            {"min_score": 0, "level": "新手", "emoji": "🔰"},
+            {"min_score": 50, "level": "数据探索者", "emoji": "🥉"},
+            {"min_score": 200, "level": "信号猎手", "emoji": "🥈"},
+            {"min_score": 500, "level": "WiFi专家", "emoji": "🥇"},
+            {"min_score": 1000, "level": "CSI大师", "emoji": "🏆"}
+        ]
+    },
+    "visualization": {
+        "csi_heatmap": {
+            "colormap": "viridis",
+            "figsize": [12, 6]
+        },
+        "performance_charts": {
+            "color_scheme": "plotly",
+            "show_confidence_interval": true
+        }
+    },
+    "data_paths": {
+        "sample_csi": "data/sample_csi",
+        "results": "data/results", 
+        "metadata": "data/metadata"
+    }
+} 

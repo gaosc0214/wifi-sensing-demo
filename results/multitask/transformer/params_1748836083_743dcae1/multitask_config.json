@@ -1,0 +1,20 @@
+{
+  "training_dir": "HumanActivityRecognition",
+  "output_dir": "./results",
+  "results_subdir": "transformer_multitask",
+  "batch_size": 128,
+  "learning_rate": 0.0005,
+  "weight_decay": 1e-05,
+  "epochs": 300,
+  "win_len": 500,
+  "feature_size": 232,
+  "model": "transformer",
+  "emb_dim": 128,
+  "dropout": 0.1,
+  "task": "multitask",
+  "tasks": [
+    "HumanActivityRecognition",
+    "ProximityRecognition",
+    "HumanIdentification"
+  ]
+}

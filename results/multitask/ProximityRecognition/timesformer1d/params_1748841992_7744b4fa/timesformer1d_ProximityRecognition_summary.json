@@ -1,0 +1,11 @@
+{
+  "experiment_id": "params_1748841992_7744b4fa",
+  "best_val_loss": 0.5003126408059702,
+  "best_val_acc": 0.8844680223990569,
+  "best_val_f1": 0.858055686231346,
+  "best_epoch": 17,
+  "total_epochs": 18,
+  "early_stopped": true,
+  "model": "timesformer1d",
+  "task": "ProximityRecognition"
+}

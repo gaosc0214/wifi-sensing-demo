@@ -1,0 +1,39 @@
+{
+  "task": "HumanIdentification",
+  "model": "timesformer1d",
+  "experiment_id": "params_1748841992_7744b4fa",
+  "test_splits": [
+    "test_cross_device",
+    "test_cross_env",
+    "test_cross_user",
+    "test"
+  ],
+  "best_validation": {
+    "accuracy": 0.883878573533746,
+    "loss": 0.5095719334419334,
+    "f1_score": 0.8609802627444798,
+    "epoch": 17
+  },
+  "test_results": {
+    "test_cross_device": {
+      "loss": 5.187819675375254,
+      "accuracy": 0.33662767244856795,
+      "f1_score": 0.14677991605306945
+    },
+    "test_cross_env": {
+      "loss": 5.738141516182158,
+      "accuracy": 0.3316254416961131,
+      "f1_score": 0.0924295922401088
+    },
+    "test_cross_user": {
+      "loss": 4.056426655540758,
+      "accuracy": 0.5108094519859225,
+      "f1_score": 0.39084973877191326
+    },
+    "test": {
+      "loss": 0.6051154780865612,
+      "accuracy": 0.8785294117647059,
+      "f1_score": 0.856335833223072
+    }
+  }
+}

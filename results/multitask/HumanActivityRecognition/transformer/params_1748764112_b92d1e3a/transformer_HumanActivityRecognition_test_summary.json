@@ -1,0 +1,39 @@
+{
+  "task": "HumanActivityRecognition",
+  "model": "transformer",
+  "experiment_id": "params_1748764112_b92d1e3a",
+  "test_splits": [
+    "test_cross_device",
+    "test_cross_env",
+    "test_cross_user",
+    "test"
+  ],
+  "best_validation": {
+    "accuracy": 0.8915414087827881,
+    "loss": 0.47962959967938973,
+    "f1_score": 0.8495754636476537,
+    "epoch": 25
+  },
+  "test_results": {
+    "test_cross_device": {
+      "loss": 4.653357657015593,
+      "accuracy": 0.4114562323517547,
+      "f1_score": 0.17762910738846888
+    },
+    "test_cross_env": {
+      "loss": 5.292497930937745,
+      "accuracy": 0.3713780918727915,
+      "f1_score": 0.06325301204819277
+    },
+    "test_cross_user": {
+      "loss": 4.068871454640952,
+      "accuracy": 0.5433216021451316,
+      "f1_score": 0.15971324760933908
+    },
+    "test": {
+      "loss": 0.501830357067606,
+      "accuracy": 0.8897058823529411,
+      "f1_score": 0.852339964449566
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "task": "ProximityRecognition",
+  "model": "timesformer1d",
+  "experiment_id": "params_1748763985_af4718e1",
+  "test_splits": [
+    "test_cross_device",
+    "test_cross_env",
+    "test_cross_user",
+    "test"
+  ],
+  "best_validation": {
+    "accuracy": 0.8944886531093428,
+    "loss": 0.45289877589729494,
+    "f1_score": 0.8772367971475599,
+    "epoch": 14
+  },
+  "test_results": {
+    "test_cross_device": {
+      "loss": 4.767640219667019,
+      "accuracy": 0.3313836224283985,
+      "f1_score": 0.12828907622159946
+    },
+    "test_cross_env": {
+      "loss": 5.60413935662344,
+      "accuracy": 0.338339222614841,
+      "f1_score": 0.11009361009361011
+    },
+    "test_cross_user": {
+      "loss": 3.8742112063064655,
+      "accuracy": 0.5067873303167421,
+      "f1_score": 0.1579418103448276
+    },
+    "test": {
+      "loss": 0.5109080123123325,
+      "accuracy": 0.8852941176470588,
+      "f1_score": 0.8545165373344294
+    }
+  }
+}

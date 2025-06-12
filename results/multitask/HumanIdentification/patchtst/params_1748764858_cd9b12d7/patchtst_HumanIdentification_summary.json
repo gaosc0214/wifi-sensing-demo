@@ -1,0 +1,11 @@
+{
+  "experiment_id": "params_1748764858_cd9b12d7",
+  "best_val_loss": 0.3935545758504304,
+  "best_val_acc": 0.906572354848217,
+  "best_val_f1": 0.9087569978124299,
+  "best_epoch": 15,
+  "total_epochs": 16,
+  "early_stopped": true,
+  "model": "patchtst",
+  "task": "HumanIdentification"
+}

@@ -1,0 +1,11 @@
+{
+  "experiment_id": "params_1748836083_743dcae1",
+  "best_val_loss": 0.5051208216248563,
+  "best_val_acc": 0.8930150309460654,
+  "best_val_f1": 0.8780810760725741,
+  "best_epoch": 40,
+  "total_epochs": 42,
+  "early_stopped": true,
+  "model": "transformer",
+  "task": "ProximityRecognition"
+}

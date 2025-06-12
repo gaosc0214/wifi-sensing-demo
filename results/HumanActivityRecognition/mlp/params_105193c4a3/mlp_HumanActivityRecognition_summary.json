@@ -1,0 +1,15 @@
+{
+    "best_epoch": 185,
+    "best_val_loss": 0.5400176411651069,
+    "best_val_accuracy": 0.8323017978190392,
+    "experiment_id": "params_105193c4a3",
+    "experiment_completed": true,
+    "test_cross_device_accuracy": 0.390681726502622,
+    "test_cross_device_f1_score": 0.3411045024630287,
+    "test_cross_env_accuracy": 0.37720848056537104,
+    "test_cross_env_f1_score": 0.3513535754050708,
+    "test_cross_user_accuracy": 0.47310206133735544,
+    "test_cross_user_f1_score": 0.39550004985937276,
+    "test_accuracy": 0.8288235294117647,
+    "test_f1_score": 0.8244119163702809
+}

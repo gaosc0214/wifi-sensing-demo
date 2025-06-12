@@ -1,0 +1,37 @@
+{
+    "best_val_accuracy": 0.8588269967580312,
+    "best_val_loss": 0.41924762758946515,
+    "best_experiment_id": "params_35e6402297",
+    "best_experiment_params": {
+        "model": "resnet18",
+        "task": "HumanActivityRecognition",
+        "num_classes": 6,
+        "batch_size": 32,
+        "learning_rate": 0.0001,
+        "weight_decay": 1e-05,
+        "epochs": 100,
+        "warmup_epochs": 5,
+        "patience": 15,
+        "win_len": 500,
+        "feature_size": 232,
+        "test_splits": [
+            "test_cross_device",
+            "test_cross_env",
+            "test_cross_user",
+            "test_id"
+        ]
+    },
+    "best_test_accuracies": {
+        "test_cross_device": 0.33662767244856795,
+        "test_cross_env": 0.3902826855123675,
+        "test_cross_user": 0.49924585218702866,
+        "test": 0.8529411764705882
+    },
+    "best_test_f1_scores": {
+        "test_cross_device": 0.3538642331307199,
+        "test_cross_env": 0.35717596356032066,
+        "test_cross_user": 0.41047660915983136,
+        "test": 0.850126274028977
+    },
+    "timestamp": "2025-06-01 20:43:51"
+}

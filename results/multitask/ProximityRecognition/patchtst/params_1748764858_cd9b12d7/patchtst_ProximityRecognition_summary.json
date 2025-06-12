@@ -1,0 +1,11 @@
+{
+  "experiment_id": "params_1748764858_cd9b12d7",
+  "best_val_loss": 0.38020635498267236,
+  "best_val_acc": 0.9062776304155614,
+  "best_val_f1": 0.8974539187499896,
+  "best_epoch": 14,
+  "total_epochs": 16,
+  "early_stopped": true,
+  "model": "patchtst",
+  "task": "ProximityRecognition"
+}

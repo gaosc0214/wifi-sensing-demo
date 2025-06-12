@@ -1,0 +1,11 @@
+{
+  "experiment_id": "params_1748841992_7744b4fa",
+  "best_val_loss": 0.5095376384388483,
+  "best_val_acc": 0.8850574712643678,
+  "best_val_f1": 0.8607822112351153,
+  "best_epoch": 17,
+  "total_epochs": 18,
+  "early_stopped": true,
+  "model": "timesformer1d",
+  "task": "HumanActivityRecognition"
+}

@@ -1,0 +1,23 @@
+{
+  "model": "patchtst",
+  "task": "ProximityRecognition",
+  "batch_size": 128,
+  "epochs": 300,
+  "lr": 0.0001,
+  "lora_r": 8,
+  "lora_alpha": 32,
+  "lora_dropout": 0.05,
+  "win_len": 500,
+  "feature_size": 232,
+  "emb_dim": 128,
+  "dropout": 0.1,
+  "num_classes": 6,
+  "experiment_id": "params_1748835922_4efbd7b2",
+  "best_epoch": 17,
+  "patch_len": 16,
+  "stride": 8,
+  "depth": 4,
+  "num_heads": 4,
+  "pool": "cls",
+  "head_dropout": 0.2
+}

@@ -1,0 +1,37 @@
+{
+    "best_val_accuracy": 0.6622458001768347,
+    "best_val_loss": 0.9438708007704568,
+    "best_experiment_id": "params_105193c4a3",
+    "best_experiment_params": {
+        "model": "timesformer1d",
+        "task": "HumanActivityRecognition",
+        "num_classes": 6,
+        "batch_size": 32,
+        "learning_rate": 0.0001,
+        "weight_decay": 1e-05,
+        "epochs": 300,
+        "warmup_epochs": 5,
+        "patience": 15,
+        "win_len": 500,
+        "feature_size": 232,
+        "test_splits": [
+            "test_cross_device",
+            "test_cross_env",
+            "test_cross_user",
+            "test_id"
+        ]
+    },
+    "best_test_accuracies": {
+        "test_cross_device": 0.3527632109721662,
+        "test_cross_env": 0.39399293286219084,
+        "test_cross_user": 0.5444947209653092,
+        "test": 0.68
+    },
+    "best_test_f1_scores": {
+        "test_cross_device": 0.35185752273903187,
+        "test_cross_env": 0.3729684940205467,
+        "test_cross_user": 0.47886417902018186,
+        "test": 0.6705832675944777
+    },
+    "timestamp": "2025-06-02 01:04:02"
+}

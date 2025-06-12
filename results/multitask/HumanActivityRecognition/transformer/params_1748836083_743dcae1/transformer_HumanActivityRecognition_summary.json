@@ -1,0 +1,11 @@
+{
+  "experiment_id": "params_1748836083_743dcae1",
+  "best_val_loss": 0.5009142577958604,
+  "best_val_acc": 0.8959622752726201,
+  "best_val_f1": 0.8807063146261322,
+  "best_epoch": 38,
+  "total_epochs": 42,
+  "early_stopped": true,
+  "model": "transformer",
+  "task": "HumanActivityRecognition"
+}

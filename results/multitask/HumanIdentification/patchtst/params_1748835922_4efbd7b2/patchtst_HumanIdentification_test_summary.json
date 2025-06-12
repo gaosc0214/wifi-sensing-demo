@@ -1,0 +1,39 @@
+{
+  "task": "HumanIdentification",
+  "model": "patchtst",
+  "experiment_id": "params_1748835922_4efbd7b2",
+  "test_splits": [
+    "test_cross_device",
+    "test_cross_env",
+    "test_cross_user",
+    "test"
+  ],
+  "best_validation": {
+    "accuracy": 0.9074565281461833,
+    "loss": 0.40564362259788644,
+    "f1_score": 0.8990686995316164,
+    "epoch": 17
+  },
+  "test_results": {
+    "test_cross_device": {
+      "loss": 5.48864249788368,
+      "accuracy": 0.3525615167406212,
+      "f1_score": 0.1739127878725535
+    },
+    "test_cross_env": {
+      "loss": 5.24930202803678,
+      "accuracy": 0.3489399293286219,
+      "f1_score": 0.09635901317233153
+    },
+    "test_cross_user": {
+      "loss": 3.7998330864455907,
+      "accuracy": 0.5304172951231775,
+      "f1_score": 0.3993683055810668
+    },
+    "test": {
+      "loss": 0.47291692434077115,
+      "accuracy": 0.8894117647058823,
+      "f1_score": 0.8735198008626112
+    }
+  }
+}

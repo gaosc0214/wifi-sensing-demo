@@ -1,0 +1,20 @@
+{
+  "best_experiment_id": "params_1748764858_cd9b12d7",
+  "best_val_accuracy": 0.9095195991747715,
+  "best_val_loss": 0.38759271947734913,
+  "best_val_f1": 0.9065219053901679,
+  "best_epoch": 15,
+  "timestamp": "2025-06-01 16:52:52",
+  "best_test_accuracies": {
+    "test_cross_device": 0.3031464300121017,
+    "test_cross_env": 0.3759717314487632,
+    "test_cross_user": 0.49120160884866765,
+    "test": 0.8947058823529411
+  },
+  "best_test_f1_scores": {
+    "test_cross_device": 0.1216189402170667,
+    "test_cross_env": 0.22637725515463916,
+    "test_cross_user": 0.15466379504136604,
+    "test": 0.8745789317149172
+  }
+}

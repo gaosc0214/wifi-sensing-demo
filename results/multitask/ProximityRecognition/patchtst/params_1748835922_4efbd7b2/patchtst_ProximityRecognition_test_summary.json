@@ -1,0 +1,39 @@
+{
+  "task": "ProximityRecognition",
+  "model": "patchtst",
+  "experiment_id": "params_1748835922_4efbd7b2",
+  "test_splits": [
+    "test_cross_device",
+    "test_cross_env",
+    "test_cross_user",
+    "test"
+  ],
+  "best_validation": {
+    "accuracy": 0.9074565281461833,
+    "loss": 0.41266924221310075,
+    "f1_score": 0.8999612339662743,
+    "epoch": 17
+  },
+  "test_results": {
+    "test_cross_device": {
+      "loss": 5.691249953696313,
+      "accuracy": 0.3652682533279548,
+      "f1_score": 0.1750161534601282
+    },
+    "test_cross_env": {
+      "loss": 5.456154149894913,
+      "accuracy": 0.3597173144876325,
+      "f1_score": 0.09871179982569067
+    },
+    "test_cross_user": {
+      "loss": 4.031531449549143,
+      "accuracy": 0.5339366515837104,
+      "f1_score": 0.39294404007575495
+    },
+    "test": {
+      "loss": 0.46207306461723485,
+      "accuracy": 0.8955882352941177,
+      "f1_score": 0.8807624758649136
+    }
+  }
+}
